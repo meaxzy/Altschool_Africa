@@ -1,0 +1,64 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5; /** 150% of font-size **/
+  -webkit-font-smoothing: antialiased;
+}
+
+/* replaced element */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.container{
+    border: 2px solid tomato;
+}
+
+.minicontainer{
+  border: 2px solid brown;
+  margin: 40px 25px;
+  display: flex;
+}
+
+.main{
+    border: 2px solid salmon;
+    height: 275px;
+    width: 460px;
+}
+
+.form{
+    border: 2px solid orange;
+    height: 679px;
+    width: 580px;
+    flex-wrap: wrap;
+}
